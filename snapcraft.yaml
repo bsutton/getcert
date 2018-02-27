@@ -9,8 +9,8 @@ description: |
 parts: 
 
 # certbot not available in standard repos so we need to add a repository
-  #setup-repo:
-    #plugin: nil
+  setup-repo:
+    plugin: nil
     #prepare: |
       #apt-get update --yes
       #apt-get install --yes software-properties-common
