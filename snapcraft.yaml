@@ -19,8 +19,8 @@ parts:
       #apt-get install --yes certbot
  
   getcert:
-    plugin: nil
-    source: snap
+    plugin: dump
+    source: src
     #source: https://github.com/bsutton/getcert.git
     #source-type: git
 
