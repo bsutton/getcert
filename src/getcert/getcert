@@ -96,7 +96,7 @@ SERVERXML="${SNAP_DATA}/conf/server.xml"
 sed  -e 's,%FQDN%,'${FQDN}',g' \
 	-e 's,%KEYSTORE_PWD%,'${KEYSTORE_PWD}',g' \
 	-e 's,%KEYSTORE_PATH%,'${KEYSTORE_PATH}',g' \
-	< ${SNAP}/tomcat-with-ssl.xml \
+	< ${SNAP}/getcert/tomcat-with-ssl.xml \
 	> "${SERVERXML}"
 
 # The certbot renewal process needs these.
