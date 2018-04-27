@@ -79,7 +79,7 @@
 		URIEncoding="UTF-8"
 		keystoreFile="%KEYSTORE_PATH%"
 		keystorePass="%KEYSTORE_PWD%"
-                keystoreType="PKCS12" 
+        	keystoreType="PKCS12" 
 		clientAuth="false" 
 		sslProtocol="TLS" />
     <!-- A "Connector" using the shared thread pool-->
