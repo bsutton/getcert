@@ -3,7 +3,7 @@ version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
 summary: Installs/renews an Lets Encrypt certificate for the tomcat-with-ssl snap
 description: | 
   Intended to use as a part for tomcat-with-ssl.
-  Gets the an SSL certificate using certbot (Lets Encrypt) including automatic renewals.
+  Gets an SSL certificate using certbot (Lets Encrypt) including automatic renewals.
   Note: current if a renewal occurs tomcat will be restarted without warning.
   
 parts: 
